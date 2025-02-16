@@ -1,0 +1,3 @@
+# React useEffect Cleanup Issue
+
+This example demonstrates a common mistake in React's `useEffect` hook:  forgetting or incorrectly implementing the cleanup function.  The provided `bug.js` file showcases this issue. The `useEffect` hook's return function is crucial for cleaning up after side effects, and omitting it or using a non-functional return value can lead to memory leaks, especially when dealing with timers or subscriptions.
